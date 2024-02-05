@@ -1,0 +1,26 @@
+package reference;
+
+public class ArrayEx2 {
+
+	public static void main(String[] args) {
+		int[] nums = {45,90,23,42,77,20,96,80};
+		
+		int sum =0;
+		for(int i=0; i<nums.length; i++) {
+			sum+= nums[i];
+		}
+		System.out.println("총합=" + sum);
+		
+		
+		
+		//int[] nums = new int[5]; //배열 선언
+//		nums[0] = 45;
+//		nums[1] = 90;
+//		nums[2] = 23;
+//		nums[3] = 42;
+//		nums[4] = 77;
+		
+
+	}
+
+}
