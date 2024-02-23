@@ -10,7 +10,7 @@ strawberry
 
 public class Main {
     public static void main(String[] args) {
-    	  String[] words = {"leaf", "banana", "orange", "strawberry", "pear", "cat"};
+    	String[] words = {"leaf", "banana", "orange", "strawberry", "pear", "cat"};
         List<String> wordsList = new ArrayList<>();
 
         for (int i = 0; i <= words.length; i++) {
@@ -27,7 +27,8 @@ public class Main {
 	    }//main메소드 끝
 
     public static List<String> getFilteredWords(List<String> wordsList) {
-        List<String> filteredWords = new ArrayList<>();
+        
+	List<String> filteredWords = new ArrayList<>();
         //5글자 이상인 단어들만 filteredWords에 추가
         
 
@@ -39,6 +40,6 @@ public class Main {
 
 
   
-        return
+        return null;
     }
 }
