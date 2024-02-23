@@ -29,7 +29,7 @@ public class Main {
     public static List<String> getFilteredWords(List<String> wordsList) {
         
 	List<String> filteredWords = new ArrayList<>();
-        //5글자 이상인 단어들만 filteredWords에 추가
+        //여기에 5글자 이상인 단어들만 filteredWords 리스트에 추가하도록 구현
         
 
 
