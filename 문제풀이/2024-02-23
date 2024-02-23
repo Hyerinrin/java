@@ -1,0 +1,44 @@
+출력문처럼 words 배열에서 단어의 길이가 5이상인 단어들만 보여주도록 해주세요!!
+메서드 완성 후 에러가 발생하는 요소도 찾아서 해결해 주세요!!
+=======================================
+<출력문>
+5글자 이상인 단어들 :
+banana
+orange
+strawberry
+========================================
+
+public class Main {
+    public static void main(String[] args) {
+    	  String[] words = {"leaf", "banana", "orange", "strawberry", "pear", "cat"};
+        List<String> wordsList = new ArrayList<>();
+
+        for (int i = 0; i <= words.length; i++) {
+            wordsList.add(words[i]);
+        }
+
+       
+        List<String> filteredWords = Main.getFilteredWords(wordsList);
+
+	      System.out.println("5글자 이상인 단어들의 리스트:");
+	        for (String word : filteredWords) {
+	            System.out.println(word);
+	        }
+	    }//main메소드 끝
+
+    public static List<String> getFilteredWords(List<String> wordsList) {
+        List<String> filteredWords = new ArrayList<>();
+        //5글자 이상인 단어들만 filteredWords에 추가
+        
+
+
+
+
+
+
+
+
+  
+        return
+    }
+}
