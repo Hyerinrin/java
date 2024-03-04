@@ -24,7 +24,7 @@
          function printNumber() {
            console.log(number);
            number++;
-            if(number>10){
+            if(number>=10){
                 clearInterval(intervalid);
             }
          }
