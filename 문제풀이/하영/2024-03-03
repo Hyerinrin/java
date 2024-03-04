@@ -19,15 +19,16 @@
         let number=1;
 
         // 'printNumber'라는 함수 정의
-         // 'number'가 10에 도달하면 'intervalId'를 사용하여 간격을 지움
+        // 'number'가 10에 도달하면 'intervalId'를 사용하여 간격을 지움
+
          function printNumber() {
            console.log(number);
            number++;
-
             if(number>10){
-                    clearInterval(intervalid);
+                clearInterval(intervalid);
             }
          }
+
         // 2000밀리초(2초) 간격으로 'printNumber' 함수를 호출하는 간격 설정
         let intervalid = setInterval(printNumber,2000);
        
