@@ -4,3 +4,4 @@ programmers(기초)/** linguist-documentation=false
 * linguist-vendored
 *.java linguist-vendored=false
 *.python linguist-detectable=true
+*.Jupyter Notebook linguiest-detectable=true
