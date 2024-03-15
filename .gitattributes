@@ -3,4 +3,4 @@ programmers(기초)/** linguist-documentation=false
 
 *.java linguist-vendored=false
 *.python linguist-detectable=true
-
+*.html linguist-detectable=false
