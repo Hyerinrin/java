@@ -53,7 +53,7 @@ model.add(???)
 model.compile(???)
 
 # 모델 학습
-# 에포크는 5로, validation_data는 x_test, y_test로 지정해주세요
+# 에포크는 10으로, validation_data는 x_test, y_test로 지정해주세요
 model.fit(???)
 
 # 모델 평가
